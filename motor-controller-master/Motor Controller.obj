@@ -1,0 +1,2561 @@
+<MODULE>
+Program
+</MODULE>
+
+<OPTC51>
+--model-small
+</OPTC51>
+
+<PRINTF_FLOAT>
+printf_float
+</PRINTF_FLOAT>
+
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0001,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0001,OV
+R_CONST,code,0356,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0035,NO
+R_DSEG,data,002B,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,1236,NO
+</SEGMENTS>
+
+<LOCALS>
+L002004?,R_CSEG,0016,0000
+L002001?,R_CSEG,001B,0000
+L005026?,R_CSEG,0156,0000
+L005025?,R_CSEG,0154,0000
+_main_temp_1_58,R_DSEG,001F,0002
+L005023?,R_CSEG,0111,0000
+L005022?,R_CSEG,010F,0000
+L005021?,R_CSEG,0101,0000
+_main_sloc0_1_0,R_DSEG,0023,0004
+bits,BIT_BANK,0000,0001
+L006010?,R_CSEG,0205,0000
+L003009?,R_CSEG,0064,0000
+L003007?,R_CSEG,005D,0000
+L003005?,R_CSEG,0032,0000
+L003001?,R_CSEG,003B,0000
+_main_sloc1_1_0,R_DSEG,0027,0004
+L007018?,R_CSEG,0EEB,0000
+L007017?,R_CSEG,0E73,0000
+L007016?,R_CSEG,0CD0,0000
+L007014?,R_CSEG,0A60,0000
+L007013?,R_CSEG,0A25,0000
+L007011?,R_CSEG,0997,0000
+L007010?,R_CSEG,0935,0000
+__str_20,R_CONST,0265,0000
+__str_21,R_CONST,0274,0000
+__str_22,R_CONST,02A5,0000
+__str_23,R_CONST,02C5,0000
+__str_24,R_CONST,02F4,0000
+__str_25,R_CONST,0324,0000
+__str_26,R_CONST,033A,0000
+__str_27,R_CONST,0345,0000
+L004004?,R_CSEG,008E,0000
+__str_10,R_CONST,015F,0000
+__str_11,R_CONST,0187,0000
+__str_12,R_CONST,01A2,0000
+__str_13,R_CONST,01B6,0000
+__str_14,R_CONST,01D9,0000
+__str_15,R_CONST,01E8,0000
+__str_16,R_CONST,01EC,0000
+__str_17,R_CONST,01FF,0000
+__str_18,R_CONST,0239,0000
+__str_19,R_CONST,0257,0000
+L004001?,R_CSEG,0083,0000
+L007027?,R_CSEG,1026,0000
+L007023?,R_CSEG,105C,0000
+L007021?,R_CSEG,0F6C,0000
+L007020?,R_CSEG,0F0A,0000
+L007039?,R_CSEG,110A,0000
+L007038?,R_CSEG,10FE,0000
+L007036?,R_CSEG,1062,0000
+L007033?,R_CSEG,10C4,0000
+L005009?,R_CSEG,018D,0000
+b0,BIT_BANK,0000,0000
+b1,BIT_BANK,0000,0000
+b2,BIT_BANK,0000,0000
+b3,BIT_BANK,0000,0000
+b4,BIT_BANK,0000,0000
+b5,BIT_BANK,0000,0000
+b6,BIT_BANK,0000,0000
+b7,BIT_BANK,0000,0000
+L005005?,R_CSEG,0149,0000
+L007048?,R_CSEG,06EF,0000
+L007045?,R_CSEG,1233,0000
+L007044?,R_CSEG,1216,0000
+L007042?,R_CSEG,11F0,0000
+L007041?,R_CSEG,11AB,0000
+_Timer2_ISR_sloc0_1_0,R_BSEG,0000,0001
+L006008?,R_CSEG,05BD,0000
+L006006?,R_CSEG,0569,0000
+L006003?,R_CSEG,0519,0000
+L006002?,R_CSEG,01EF,0000
+L007008?,R_CSEG,0916,0000
+L007007?,R_CSEG,08BD,0000
+L007006?,R_CSEG,0882,0000
+L007004?,R_CSEG,07F4,0000
+L007003?,R_CSEG,07CF,0000
+L007002?,R_CSEG,07B0,0000
+L007001?,R_CSEG,0756,0000
+_getAngle_sloc0_1_0,R_DSEG,001B,0004
+__str_0,R_CONST,0000,0000
+__str_1,R_CONST,0038,0000
+__str_2,R_CONST,004A,0000
+__str_3,R_CONST,005F,0000
+__str_4,R_CONST,0071,0000
+__str_5,R_CONST,0076,0000
+__str_6,R_CONST,00C1,0000
+__str_7,R_CONST,00E2,0000
+__str_8,R_CONST,0111,0000
+__str_9,R_CONST,0138,0000
+L003018?,R_CSEG,003E,0000
+_main_direction_1_58,R_DSEG,0021,0002
+_getAngle_current_angle_1_54,R_DSEG,0019,0002
+L007076?,R_CSEG,1014,0000
+L007074?,R_CSEG,0AA6,0000
+L007070?,R_CSEG,0738,0000
+L007082?,R_CSEG,106F,0000
+L007081?,R_CSEG,106D,0000
+L005013?,R_CSEG,01B5,0000
+L005011?,R_CSEG,01B1,0000
+L002007?,R_CSEG,0026,0000
+</LOCALS>
+
+<PUBLICS>
+_PWM_MODE,R_DSEG,000B,0002
+_main,R_CSEG,0614,0000
+_PWM_TIME,R_DSEG,000F,0002
+_PWM_TURN,R_DSEG,0007,0002
+_centiseconds,R_DSEG,0000,0004
+__c51_external_startup,R_CSEG,0065,0000
+_count_angle,R_DSEG,0004,0002
+_Timer2_ISR,R_CSEG,00CE,0000
+_PWM_LIMIT,R_DSEG,0009,0002
+_getAngle,R_CSEG,01D2,0000
+_PWM_OFF,R_DSEG,000D,0002
+_pwm_count,R_DSEG,0006,0001
+_getAngle_PARM_2,R_DSEG,0013,0004
+_getAngle_PARM_3,R_DSEG,0017,0002
+_Timer3us,R_CSEG,0000,0000
+_current_angle,R_DSEG,0011,0002
+_waitms,R_CSEG,002A,0000
+</PUBLICS>
+
+<EXTERNALS>
+_scanf,any,0000,0000
+___uint2fs,any,0000,0000
+___fsgt,any,0000,0000
+__modsint_PARM_2,any,0000,0000
+___fslt,any,0000,0000
+___fsmul,any,0000,0000
+_rand,any,0000,0000
+__mulint,any,0000,0000
+___fsadd,any,0000,0000
+_printf,any,0000,0000
+_srand,any,0000,0000
+__modsint,any,0000,0000
+__mulint_PARM_2,any,0000,0000
+__divsint,any,0000,0000
+___fssub,any,0000,0000
+___fs2uint,any,0000,0000
+_crt0,any,0000,0000
+___sint2fs,any,0000,0000
+___fsdiv,any,0000,0000
+__divsint_PARM_2,any,0000,0000
+</EXTERNALS>
+
+<CODE AT 0000>
+</CODE>
+
+<CODE R_HOME>
+</CODE>
+
+<CODE R_GSINIT>
+</CODE>
+
+<CODE R_CSEG>
+</CODE>
+
+<CODE AT 0000>
+02 addr16(_crt0;)  
+</CODE>
+
+<CODE AT 002B>
+02 addr16(_Timer2_ISR;)  
+</CODE>
+
+<CODE R_HOME>
+</CODE>
+
+<CODE R_GSINIT>
+</CODE>
+
+<CODE R_GSINIT>
+</CODE>
+
+<CODE R_DINIT>
+75 data8(_centiseconds;) 00
+75 data8(_centiseconds;0x0001;+;) 00
+75 data8(_centiseconds;0x0002;+;) 00
+75 data8(_centiseconds;0x0003;+;) 00
+E4
+F5 data8(_count_angle;)
+F5 data8(_count_angle;0x0001;+;)
+75 data8(_pwm_count;) 00
+75 data8(_PWM_TURN;) 32
+E4
+F5 data8(_PWM_TURN;0x0001;+;)
+75 data8(_PWM_LIMIT;) 64
+E4
+F5 data8(_PWM_LIMIT;0x0001;+;)
+E4
+F5 data8(_PWM_MODE;)
+F5 data8(_PWM_MODE;0x0001;+;)
+75 data8(_PWM_OFF;) 01
+E4
+F5 data8(_PWM_OFF;0x0001;+;)
+E4
+F5 data8(_PWM_TIME;)
+F5 data8(_PWM_TIME;0x0001;+;)
+E4
+F5 data8(_current_angle;)
+F5 data8(_current_angle;0x0001;+;)
+</CODE>
+
+<CODE R_CSEG>
+AA 82
+43 8E 40
+75 92 B8
+75 93 FF
+85 92 94
+85 93 95
+75 91 04
+7B 00
+C3
+EB
+9A
+50 rel2(L002007?;)
+E5 91
+30 E7 rel3(L002001?;)
+53 91 7F
+0B
+80 rel2(L002004?;)
+75 91 00
+22
+AA 82
+AB 83
+7C 00
+7D 00
+C3
+EC
+9A
+ED
+9B
+50 rel2(L003009?;)
+7E 00
+BE 04 rel3(L003018?;)
+50 rel2(L003007?;)
+75 82 FA
+C0 02
+C0 03
+C0 04
+C0 05
+C0 06
+12 addr16(_Timer3us;)  
+D0 06
+D0 05
+D0 04
+D0 03
+D0 02
+0E
+80 rel2(L003001?;)
+0C
+BC 00 rel3(L003005?;)
+0D
+80 rel2(L003005?;)
+22
+75 A7 00
+75 97 DE
+75 97 AD
+75 FF 80
+75 EF 06
+75 A7 10
+75 C1 20
+75 A7 00
+75 A9 00
+75 A9 00
+E5 A9
+30 E7 rel3(L004001?;)
+75 A9 03
+75 A9 03
+E5 A9
+30 E7 rel3(L004004?;)
+43 A4 10
+75 E1 01
+75 E2 00
+75 E3 40
+75 98 10
+75 8D E6
+85 8D 8B
+53 89 0F
+43 89 20
+D2 8E
+D2 99
+75 C8 00
+43 8E 10
+75 CA E0
+75 CB E3
+75 CE FF
+75 CF FF
+D2 AD
+D2 CA
+D2 AF
+75 82 00
+22
+C0 data8(bits;)
+C0 E0
+C0 F0
+C0 82
+C0 83
+C0 02
+C0 03
+C0 04
+C0 05
+C0 06
+C0 07
+C0 00
+C0 01
+C0 D0
+75 D0 00
+C2 CF
+05 data8(_pwm_count;)
+AA data8(_pwm_count;)
+7B 00
+C3
+E5 data8(_PWM_LIMIT;)
+9A
+E5 data8(_PWM_LIMIT;0x0001;+;)
+9B
+40 rel2(L005021?;)
+02 addr16(L005009?;)  
+75 data8(_pwm_count;) 00
+74 01
+B5 data8(_count_angle;) rel3(L005022?;)
+E4
+B5 data8(_count_angle;0x0001;+;) rel3(L005022?;)
+80 rel2(L005023?;)
+80 rel2(L005005?;)
+C3
+74 32
+95 data8(_PWM_TURN;)
+E4
+95 data8(_PWM_TURN;0x0001;+;)
+50 rel2(L005005?;)
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+85 data8(_centiseconds;) 82
+85 data8(_centiseconds;0x0001;+;) 83
+85 data8(_centiseconds;0x0002;+;) F0
+E5 data8(_centiseconds;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_centiseconds;)
+85 83 data8(_centiseconds;0x0001;+;)
+85 F0 data8(_centiseconds;0x0002;+;)
+F5 data8(_centiseconds;0x0003;+;)
+E5 81
+24 FC
+F5 81
+80 rel2(L005009?;)
+74 01
+B5 data8(_count_angle;) rel3(L005025?;)
+E4
+B5 data8(_count_angle;0x0001;+;) rel3(L005025?;)
+80 rel2(L005026?;)
+80 rel2(L005009?;)
+C3
+E5 data8(_PWM_TURN;)
+94 32
+E5 data8(_PWM_TURN;0x0001;+;)
+94 00
+50 rel2(L005009?;)
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+85 data8(_centiseconds;) 82
+85 data8(_centiseconds;0x0001;+;) 83
+85 data8(_centiseconds;0x0002;+;) F0
+E5 data8(_centiseconds;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_centiseconds;)
+85 83 data8(_centiseconds;0x0001;+;)
+85 F0 data8(_centiseconds;0x0002;+;)
+F5 data8(_centiseconds;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E5 data8(_PWM_OFF;)
+45 data8(_PWM_OFF;0x0001;+;)
+70 rel2(L005011?;)
+AA data8(_pwm_count;)
+FB
+C3
+E5 data8(_PWM_TURN;)
+9A
+E5 data8(_PWM_TURN;0x0001;+;)
+9B
+92 91
+AA data8(_pwm_count;)
+7B 00
+C3
+E5 data8(_PWM_TURN;)
+9A
+E5 data8(_PWM_TURN;0x0001;+;)
+9B
+92 data8(_Timer2_ISR_sloc0_1_0;)
+B3
+92 92
+80 rel2(L005013?;)
+C2 91
+C2 92
+D0 D0
+D0 01
+D0 00
+D0 07
+D0 06
+D0 05
+D0 04
+D0 03
+D0 02
+D0 83
+D0 82
+D0 F0
+D0 E0
+D0 data8(bits;)
+32
+85 82 data8(_getAngle_current_angle_1_54;)
+85 83 data8(_getAngle_current_angle_1_54;0x0001;+;)
+C3
+E5 data8(_getAngle_PARM_3;)
+94 32
+E5 data8(_getAngle_PARM_3;0x0001;+;)
+94 00
+50 rel2(L006002?;)
+74 64
+C3
+95 data8(_getAngle_PARM_3;)
+F5 data8(_getAngle_PARM_3;)
+E4
+95 data8(_getAngle_PARM_3;0x0001;+;)
+F5 data8(_getAngle_PARM_3;0x0001;+;)
+E5 data8(_getAngle_PARM_2;)
+45 data8(_getAngle_PARM_2;0x0001;+;)
+45 data8(_getAngle_PARM_2;0x0002;+;)
+85 data8(_getAngle_PARM_2;0x0003;+;) F0
+C2 F7
+45 F0
+70 rel2(L006010?;)
+85 data8(_getAngle_current_angle_1_54;) 82
+85 data8(_getAngle_current_angle_1_54;0x0001;+;) 83
+22
+C0 data8(_getAngle_PARM_2;)
+C0 data8(_getAngle_PARM_2;0x0001;+;)
+C0 data8(_getAngle_PARM_2;0x0002;+;)
+C0 data8(_getAngle_PARM_2;0x0003;+;)
+90 00 00
+75 F0 20
+74 41
+12 addr16(___fsmul;)  
+85 82 data8(_getAngle_PARM_2;)
+85 83 data8(_getAngle_PARM_2;0x0001;+;)
+85 F0 data8(_getAngle_PARM_2;0x0002;+;)
+F5 data8(_getAngle_PARM_2;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_getAngle_PARM_3;)
+C0 data8(_getAngle_PARM_3;0x0001;+;)
+C0 data8(_getAngle_PARM_2;)
+C0 data8(_getAngle_PARM_2;0x0001;+;)
+C0 data8(_getAngle_PARM_2;0x0002;+;)
+C0 data8(_getAngle_PARM_2;0x0003;+;)
+C0 data8(_getAngle_current_angle_1_54;)
+C0 data8(_getAngle_current_angle_1_54;0x0001;+;)
+74 data8(__str_0;)
+C0 E0
+74 data8(__str_0;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+E5 81
+24 F5
+F5 81
+85 data8(_getAngle_PARM_3;) 82
+85 data8(_getAngle_PARM_3;0x0001;+;) 83
+12 addr16(___uint2fs;)  
+AC 82
+AD 83
+AE F0
+FF
+C0 04
+C0 05
+C0 06
+C0 07
+C0 04
+C0 05
+C0 06
+C0 07
+90 40 94
+75 F0 D6
+74 3B
+12 addr16(___fsmul;)  
+A8 82
+A9 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+D0 07
+D0 06
+D0 05
+D0 04
+C0 04
+C0 05
+C0 06
+C0 07
+C0 04
+C0 05
+C0 06
+C0 07
+88 82
+89 83
+8A F0
+EB
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+D0 07
+D0 06
+D0 05
+D0 04
+C0 04
+C0 05
+C0 06
+C0 07
+C0 04
+C0 05
+C0 06
+C0 07
+8A 82
+8B 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+D0 07
+D0 06
+D0 05
+D0 04
+C0 04
+C0 05
+C0 06
+C0 07
+C0 04
+C0 05
+C0 06
+C0 07
+8A 82
+8B 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+85 82 data8(_getAngle_sloc0_1_0;)
+85 83 data8(_getAngle_sloc0_1_0;0x0001;+;)
+85 F0 data8(_getAngle_sloc0_1_0;0x0002;+;)
+F5 data8(_getAngle_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+D0 07
+D0 06
+D0 05
+D0 04
+C0 04
+C0 05
+C0 06
+C0 07
+C0 04
+C0 05
+C0 06
+C0 07
+90 8B E6
+75 F0 0F
+74 40
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+D0 07
+D0 06
+D0 05
+D0 04
+C0 04
+C0 05
+C0 06
+C0 07
+C0 04
+C0 05
+C0 06
+C0 07
+8A 82
+8B 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+D0 07
+D0 06
+D0 05
+D0 04
+C0 04
+C0 05
+C0 06
+C0 07
+C0 04
+C0 05
+C0 06
+C0 07
+8A 82
+8B 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 00
+C0 01
+85 data8(_getAngle_sloc0_1_0;) 82
+85 data8(_getAngle_sloc0_1_0;0x0001;+;) 83
+85 data8(_getAngle_sloc0_1_0;0x0002;+;) F0
+E5 data8(_getAngle_sloc0_1_0;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_getAngle_sloc0_1_0;)
+85 83 data8(_getAngle_sloc0_1_0;0x0001;+;)
+85 F0 data8(_getAngle_sloc0_1_0;0x0002;+;)
+F5 data8(_getAngle_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+D0 07
+D0 06
+D0 05
+D0 04
+C0 04
+C0 05
+C0 06
+C0 07
+C0 04
+C0 05
+C0 06
+C0 07
+90 DA EB
+75 F0 8F
+74 43
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_getAngle_sloc0_1_0;) 82
+85 data8(_getAngle_sloc0_1_0;0x0001;+;) 83
+85 data8(_getAngle_sloc0_1_0;0x0002;+;) F0
+E5 data8(_getAngle_sloc0_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+74 D8
+C0 E0
+74 13
+C0 E0
+74 9D
+C0 E0
+74 C9
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+C0 02
+C0 03
+C0 04
+C0 05
+74 data8(__str_1;)
+C0 E0
+74 data8(__str_1;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+E5 81
+24 F9
+F5 81
+85 data8(_getAngle_PARM_2;) 82
+85 data8(_getAngle_PARM_2;0x0001;+;) 83
+85 data8(_getAngle_PARM_2;0x0002;+;) F0
+E5 data8(_getAngle_PARM_2;0x0003;+;)
+12 addr16(___fsdiv;)  
+85 82 data8(_getAngle_PARM_2;)
+85 83 data8(_getAngle_PARM_2;0x0001;+;)
+85 F0 data8(_getAngle_PARM_2;0x0002;+;)
+F5 data8(_getAngle_PARM_2;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_getAngle_PARM_2;)
+C0 data8(_getAngle_PARM_2;0x0001;+;)
+C0 data8(_getAngle_PARM_2;0x0002;+;)
+C0 data8(_getAngle_PARM_2;0x0003;+;)
+74 data8(__str_2;)
+C0 E0
+74 data8(__str_2;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+E5 81
+24 F9
+F5 81
+85 data8(_getAngle_current_angle_1_54;) 82
+85 data8(_getAngle_current_angle_1_54;0x0001;+;) 83
+12 addr16(___uint2fs;)  
+AE 82
+AF 83
+A8 F0
+F9
+E4
+C0 E0
+C0 E0
+74 B4
+C0 E0
+74 43
+C0 E0
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_getAngle_PARM_2;) 82
+85 data8(_getAngle_PARM_2;0x0001;+;) 83
+85 data8(_getAngle_PARM_2;0x0002;+;) F0
+E5 data8(_getAngle_PARM_2;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_getAngle_PARM_2;)
+85 83 data8(_getAngle_PARM_2;0x0001;+;)
+85 F0 data8(_getAngle_PARM_2;0x0002;+;)
+F5 data8(_getAngle_PARM_2;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+85 data8(_getAngle_PARM_2;) 82
+85 data8(_getAngle_PARM_2;0x0001;+;) 83
+85 data8(_getAngle_PARM_2;0x0002;+;) F0
+E5 data8(_getAngle_PARM_2;0x0003;+;)
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L006006?;)
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+85 data8(_getAngle_PARM_2;) 82
+85 data8(_getAngle_PARM_2;0x0001;+;) 83
+85 data8(_getAngle_PARM_2;0x0002;+;) F0
+E5 data8(_getAngle_PARM_2;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_getAngle_PARM_2;)
+85 83 data8(_getAngle_PARM_2;0x0001;+;)
+85 F0 data8(_getAngle_PARM_2;0x0002;+;)
+F5 data8(_getAngle_PARM_2;0x0003;+;)
+E5 81
+24 FC
+F5 81
+80 rel2(L006003?;)
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+85 data8(_getAngle_PARM_2;) 82
+85 data8(_getAngle_PARM_2;0x0001;+;) 83
+85 data8(_getAngle_PARM_2;0x0002;+;) F0
+E5 data8(_getAngle_PARM_2;0x0003;+;)
+12 addr16(___fsgt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L006008?;)
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+85 data8(_getAngle_PARM_2;) 82
+85 data8(_getAngle_PARM_2;0x0001;+;) 83
+85 data8(_getAngle_PARM_2;0x0002;+;) F0
+E5 data8(_getAngle_PARM_2;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_getAngle_PARM_2;)
+85 83 data8(_getAngle_PARM_2;0x0001;+;)
+85 F0 data8(_getAngle_PARM_2;0x0002;+;)
+F5 data8(_getAngle_PARM_2;0x0003;+;)
+E5 81
+24 FC
+F5 81
+80 rel2(L006006?;)
+C0 data8(_getAngle_PARM_2;)
+C0 data8(_getAngle_PARM_2;0x0001;+;)
+C0 data8(_getAngle_PARM_2;0x0002;+;)
+C0 data8(_getAngle_PARM_2;0x0003;+;)
+90 00 00
+75 F0 B4
+74 43
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+C0 data8(_getAngle_PARM_2;)
+C0 data8(_getAngle_PARM_2;0x0001;+;)
+C0 data8(_getAngle_PARM_2;0x0002;+;)
+C0 data8(_getAngle_PARM_2;0x0003;+;)
+74 data8(__str_3;)
+C0 E0
+74 data8(__str_3;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+E5 81
+24 F9
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+8A 82
+8B 83
+8C F0
+ED
+02 addr16(___fs2uint;)  
+E4
+F5 data8(_main_temp_1_58;)
+F5 data8(_main_temp_1_58;0x0001;+;)
+F5 data8(_main_direction_1_58;)
+F5 data8(_main_direction_1_58;0x0001;+;)
+74 data8(__str_4;)
+C0 E0
+74 data8(__str_4;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_5;)
+C0 E0
+74 data8(__str_5;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_6;)
+C0 E0
+74 data8(__str_6;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_7;)
+C0 E0
+74 data8(__str_7;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_8;)
+C0 E0
+74 data8(__str_8;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_9;)
+C0 E0
+74 data8(__str_9;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_10;)
+C0 E0
+74 data8(__str_10;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_11;)
+C0 E0
+74 data8(__str_11;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_12;)
+C0 E0
+74 data8(__str_12;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_13;)
+C0 E0
+74 data8(__str_13;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_14;)
+C0 E0
+74 data8(__str_14;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(_PWM_MODE;)
+C0 E0
+74 data8(_PWM_MODE;0x0008;>>;)
+C0 E0
+74 40
+C0 E0
+74 data8(__str_15;)
+C0 E0
+74 data8(__str_15;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_scanf;)  
+E5 81
+24 FA
+F5 81
+AA data8(_PWM_MODE;)
+AB data8(_PWM_MODE;0x0001;+;)
+C3
+74 09
+9A
+E4
+9B
+40 rel2(L007048?;)
+EA
+2A
+2A
+90 data16(L007070?;)  
+73
+02 addr16(L007001?;)  
+02 addr16(L007002?;)  
+02 addr16(L007003?;)  
+02 addr16(L007004?;)  
+02 addr16(L007011?;)  
+02 addr16(L007021?;)  
+02 addr16(L007038?;)  
+02 addr16(L007045?;)  
+02 addr16(L007045?;)  
+02 addr16(L007039?;)  
+E4
+F5 data8(_count_angle;)
+F5 data8(_count_angle;0x0001;+;)
+85 data8(_centiseconds;) data8(_getAngle_PARM_2;)
+85 data8(_centiseconds;0x0001;+;) data8(_getAngle_PARM_2;0x0001;+;)
+85 data8(_centiseconds;0x0002;+;) data8(_getAngle_PARM_2;0x0002;+;)
+85 data8(_centiseconds;0x0003;+;) data8(_getAngle_PARM_2;0x0003;+;)
+85 data8(_PWM_TURN;) data8(_getAngle_PARM_3;)
+85 data8(_PWM_TURN;0x0001;+;) data8(_getAngle_PARM_3;0x0001;+;)
+85 data8(_current_angle;) 82
+85 data8(_current_angle;0x0001;+;) 83
+12 addr16(_getAngle;)  
+85 82 data8(_current_angle;)
+85 83 data8(_current_angle;0x0001;+;)
+C0 data8(_current_angle;)
+C0 data8(_current_angle;0x0001;+;)
+74 data8(__str_16;)
+C0 E0
+74 data8(__str_16;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+E5 81
+24 FB
+F5 81
+75 data8(_centiseconds;) 00
+75 data8(_centiseconds;0x0001;+;) 00
+75 data8(_centiseconds;0x0002;+;) 00
+75 data8(_centiseconds;0x0003;+;) 00
+75 data8(_PWM_TURN;) 32
+E4
+F5 data8(_PWM_TURN;0x0001;+;)
+75 data8(_PWM_OFF;) 01
+E4
+F5 data8(_PWM_OFF;0x0001;+;)
+02 addr16(L007048?;)  
+75 data8(_PWM_TURN;) 32
+E4
+F5 data8(_PWM_TURN;0x0001;+;)
+E4
+F5 data8(_PWM_OFF;)
+F5 data8(_PWM_OFF;0x0001;+;)
+90 01 F4
+12 addr16(_waitms;)  
+75 data8(_count_angle;) 01
+E4
+F5 data8(_count_angle;0x0001;+;)
+E4
+F5 data8(_PWM_TURN;)
+F5 data8(_PWM_TURN;0x0001;+;)
+02 addr16(L007048?;)  
+75 data8(_PWM_TURN;) 32
+E4
+F5 data8(_PWM_TURN;0x0001;+;)
+E4
+F5 data8(_PWM_OFF;)
+F5 data8(_PWM_OFF;0x0001;+;)
+90 01 F4
+12 addr16(_waitms;)  
+75 data8(_count_angle;) 01
+E4
+F5 data8(_count_angle;0x0001;+;)
+75 data8(_PWM_TURN;) 64
+E4
+F5 data8(_PWM_TURN;0x0001;+;)
+E4
+F5 data8(_PWM_OFF;)
+F5 data8(_PWM_OFF;0x0001;+;)
+02 addr16(L007048?;)  
+74 data8(__str_17;)
+C0 E0
+74 data8(__str_17;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(_main_direction_1_58;)
+C0 E0
+74 data8(_main_direction_1_58;0x0008;>>;)
+C0 E0
+74 40
+C0 E0
+74 data8(__str_15;)
+C0 E0
+74 data8(__str_15;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_scanf;)  
+E5 81
+24 FA
+F5 81
+74 data8(__str_18;)
+C0 E0
+74 data8(__str_18;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+E5 data8(_main_direction_1_58;)
+45 data8(_main_direction_1_58;0x0001;+;)
+70 rel2(L007006?;)
+74 data8(_main_temp_1_58;)
+C0 E0
+74 data8(_main_temp_1_58;0x0008;>>;)
+C0 E0
+74 40
+C0 E0
+74 data8(__str_15;)
+C0 E0
+74 data8(__str_15;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_scanf;)  
+E5 81
+24 FA
+F5 81
+85 data8(_main_temp_1_58;) data8(__mulint_PARM_2;)
+85 data8(_main_temp_1_58;0x0001;+;) data8(__mulint_PARM_2;0x0001;+;)
+90 00 05
+12 addr16(__mulint;)  
+AA 82
+AB 83
+74 32
+C3
+9A
+F5 data8(_main_temp_1_58;)
+E4
+9B
+F5 data8(_main_temp_1_58;0x0001;+;)
+80 rel2(L007007?;)
+74 data8(_main_temp_1_58;)
+C0 E0
+74 data8(_main_temp_1_58;0x0008;>>;)
+C0 E0
+74 40
+C0 E0
+74 data8(__str_15;)
+C0 E0
+74 data8(__str_15;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_scanf;)  
+E5 81
+24 FA
+F5 81
+85 data8(_main_temp_1_58;) data8(__mulint_PARM_2;)
+85 data8(_main_temp_1_58;0x0001;+;) data8(__mulint_PARM_2;0x0001;+;)
+90 00 05
+12 addr16(__mulint;)  
+E5 82
+85 83 F0
+24 32
+F5 data8(_main_temp_1_58;)
+E4
+35 F0
+F5 data8(_main_temp_1_58;0x0001;+;)
+74 data8(__str_19;)
+C0 E0
+74 data8(__str_19;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(_PWM_TIME;)
+C0 E0
+74 data8(_PWM_TIME;0x0008;>>;)
+C0 E0
+74 40
+C0 E0
+74 data8(__str_15;)
+C0 E0
+74 data8(__str_15;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_scanf;)  
+E5 81
+24 FA
+F5 81
+90 01 F4
+12 addr16(_waitms;)  
+75 data8(_PWM_TURN;) 32
+E4
+F5 data8(_PWM_TURN;0x0001;+;)
+E4
+F5 data8(_PWM_OFF;)
+F5 data8(_PWM_OFF;0x0001;+;)
+90 01 F4
+12 addr16(_waitms;)  
+75 data8(_count_angle;) 01
+E4
+F5 data8(_count_angle;0x0001;+;)
+85 data8(_main_temp_1_58;) data8(_PWM_TURN;)
+85 data8(_main_temp_1_58;0x0001;+;) data8(_PWM_TURN;0x0001;+;)
+C3
+74 E8
+95 data8(_PWM_TIME;)
+74 03
+95 data8(_PWM_TIME;0x0001;+;)
+50 rel2(L007010?;)
+90 03 E8
+12 addr16(_waitms;)  
+E5 data8(_PWM_TIME;)
+24 18
+F5 data8(_PWM_TIME;)
+E5 data8(_PWM_TIME;0x0001;+;)
+34 FC
+F5 data8(_PWM_TIME;0x0001;+;)
+80 rel2(L007008?;)
+85 data8(_PWM_TIME;) 82
+85 data8(_PWM_TIME;0x0001;+;) 83
+12 addr16(_waitms;)  
+75 data8(_PWM_OFF;) 01
+E4
+F5 data8(_PWM_OFF;0x0001;+;)
+E4
+F5 data8(_count_angle;)
+F5 data8(_count_angle;0x0001;+;)
+F5 data8(_main_temp_1_58;)
+F5 data8(_main_temp_1_58;0x0001;+;)
+85 data8(_centiseconds;) data8(_getAngle_PARM_2;)
+85 data8(_centiseconds;0x0001;+;) data8(_getAngle_PARM_2;0x0001;+;)
+85 data8(_centiseconds;0x0002;+;) data8(_getAngle_PARM_2;0x0002;+;)
+85 data8(_centiseconds;0x0003;+;) data8(_getAngle_PARM_2;0x0003;+;)
+85 data8(_PWM_TURN;) data8(_getAngle_PARM_3;)
+85 data8(_PWM_TURN;0x0001;+;) data8(_getAngle_PARM_3;0x0001;+;)
+85 data8(_current_angle;) 82
+85 data8(_current_angle;0x0001;+;) 83
+12 addr16(_getAngle;)  
+85 82 data8(_current_angle;)
+85 83 data8(_current_angle;0x0001;+;)
+C0 data8(_current_angle;)
+C0 data8(_current_angle;0x0001;+;)
+74 data8(__str_16;)
+C0 E0
+74 data8(__str_16;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+E5 81
+24 FB
+F5 81
+E4
+F5 data8(_centiseconds;)
+F5 data8(_centiseconds;0x0001;+;)
+F5 data8(_centiseconds;0x0002;+;)
+F5 data8(_centiseconds;0x0003;+;)
+F5 data8(_PWM_MODE;)
+F5 data8(_PWM_MODE;0x0001;+;)
+02 addr16(L007048?;)  
+74 data8(__str_17;)
+C0 E0
+74 data8(__str_17;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(_main_direction_1_58;)
+C0 E0
+74 data8(_main_direction_1_58;0x0008;>>;)
+C0 E0
+74 40
+C0 E0
+74 data8(__str_15;)
+C0 E0
+74 data8(__str_15;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_scanf;)  
+E5 81
+24 FA
+F5 81
+74 data8(__str_18;)
+C0 E0
+74 data8(__str_18;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+E5 data8(_main_direction_1_58;)
+45 data8(_main_direction_1_58;0x0001;+;)
+70 rel2(L007013?;)
+74 data8(_main_temp_1_58;)
+C0 E0
+74 data8(_main_temp_1_58;0x0008;>>;)
+C0 E0
+74 40
+C0 E0
+74 data8(__str_15;)
+C0 E0
+74 data8(__str_15;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_scanf;)  
+E5 81
+24 FA
+F5 81
+85 data8(_main_temp_1_58;) data8(__mulint_PARM_2;)
+85 data8(_main_temp_1_58;0x0001;+;) data8(__mulint_PARM_2;0x0001;+;)
+90 00 05
+12 addr16(__mulint;)  
+AA 82
+AB 83
+74 32
+C3
+9A
+F5 data8(_main_temp_1_58;)
+E4
+9B
+F5 data8(_main_temp_1_58;0x0001;+;)
+80 rel2(L007014?;)
+74 data8(_main_temp_1_58;)
+C0 E0
+74 data8(_main_temp_1_58;0x0008;>>;)
+C0 E0
+74 40
+C0 E0
+74 data8(__str_15;)
+C0 E0
+74 data8(__str_15;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_scanf;)  
+E5 81
+24 FA
+F5 81
+85 data8(_main_temp_1_58;) data8(__mulint_PARM_2;)
+85 data8(_main_temp_1_58;0x0001;+;) data8(__mulint_PARM_2;0x0001;+;)
+90 00 05
+12 addr16(__mulint;)  
+E5 82
+85 83 F0
+24 32
+F5 data8(_main_temp_1_58;)
+E4
+35 F0
+F5 data8(_main_temp_1_58;0x0001;+;)
+74 data8(__str_20;)
+C0 E0
+74 data8(__str_20;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(_PWM_TIME;)
+C0 E0
+74 data8(_PWM_TIME;0x0008;>>;)
+C0 E0
+74 40
+C0 E0
+74 data8(__str_15;)
+C0 E0
+74 data8(__str_15;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_scanf;)  
+E5 81
+24 FA
+F5 81
+C3
+E5 data8(_main_temp_1_58;)
+94 32
+E5 data8(_main_temp_1_58;0x0001;+;)
+64 80
+94 80
+40 rel2(L007074?;)
+02 addr16(L007016?;)  
+74 64
+C3
+95 data8(_main_temp_1_58;)
+F5 data8(_main_temp_1_58;)
+E4
+95 data8(_main_temp_1_58;0x0001;+;)
+F5 data8(_main_temp_1_58;0x0001;+;)
+85 data8(_main_temp_1_58;) 82
+85 data8(_main_temp_1_58;0x0001;+;) 83
+12 addr16(___sint2fs;)  
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+C0 02
+C0 03
+C0 04
+C0 05
+90 40 94
+75 F0 D6
+74 3B
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+C0 02
+C0 03
+C0 04
+C0 05
+C0 02
+C0 03
+C0 04
+C0 05
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+C0 02
+C0 03
+C0 04
+C0 05
+C0 02
+C0 03
+C0 04
+C0 05
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+C0 02
+C0 03
+C0 04
+C0 05
+C0 02
+C0 03
+C0 04
+C0 05
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+85 82 data8(_main_sloc0_1_0;)
+85 83 data8(_main_sloc0_1_0;0x0001;+;)
+85 F0 data8(_main_sloc0_1_0;0x0002;+;)
+F5 data8(_main_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+C0 02
+C0 03
+C0 04
+C0 05
+C0 02
+C0 03
+C0 04
+C0 05
+90 8B E6
+75 F0 0F
+74 40
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+C0 02
+C0 03
+C0 04
+C0 05
+C0 02
+C0 03
+C0 04
+C0 05
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+C0 02
+C0 03
+C0 04
+C0 05
+C0 02
+C0 03
+C0 04
+C0 05
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 00
+C0 01
+85 data8(_main_sloc0_1_0;) 82
+85 data8(_main_sloc0_1_0;0x0001;+;) 83
+85 data8(_main_sloc0_1_0;0x0002;+;) F0
+E5 data8(_main_sloc0_1_0;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_main_sloc0_1_0;)
+85 83 data8(_main_sloc0_1_0;0x0001;+;)
+85 F0 data8(_main_sloc0_1_0;0x0002;+;)
+F5 data8(_main_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+C0 02
+C0 03
+C0 04
+C0 05
+C0 02
+C0 03
+C0 04
+C0 05
+90 DA EB
+75 F0 8F
+74 43
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_main_sloc0_1_0;) 82
+85 data8(_main_sloc0_1_0;0x0001;+;) 83
+85 data8(_main_sloc0_1_0;0x0002;+;) F0
+E5 data8(_main_sloc0_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+74 D8
+C0 E0
+74 13
+C0 E0
+74 9D
+C0 E0
+74 C9
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+74 64
+C3
+95 data8(_main_temp_1_58;)
+F5 data8(_main_temp_1_58;)
+E4
+95 data8(_main_temp_1_58;0x0001;+;)
+F5 data8(_main_temp_1_58;0x0001;+;)
+02 addr16(L007017?;)  
+85 data8(_main_temp_1_58;) 82
+85 data8(_main_temp_1_58;0x0001;+;) 83
+12 addr16(___sint2fs;)  
+85 82 data8(_main_sloc0_1_0;)
+85 83 data8(_main_sloc0_1_0;0x0001;+;)
+85 F0 data8(_main_sloc0_1_0;0x0002;+;)
+F5 data8(_main_sloc0_1_0;0x0003;+;)
+C0 data8(_main_sloc0_1_0;)
+C0 data8(_main_sloc0_1_0;0x0001;+;)
+C0 data8(_main_sloc0_1_0;0x0002;+;)
+C0 data8(_main_sloc0_1_0;0x0003;+;)
+90 40 94
+75 F0 D6
+74 3B
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+C0 data8(_main_sloc0_1_0;)
+C0 data8(_main_sloc0_1_0;0x0001;+;)
+C0 data8(_main_sloc0_1_0;0x0002;+;)
+C0 data8(_main_sloc0_1_0;0x0003;+;)
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+C0 data8(_main_sloc0_1_0;)
+C0 data8(_main_sloc0_1_0;0x0001;+;)
+C0 data8(_main_sloc0_1_0;0x0002;+;)
+C0 data8(_main_sloc0_1_0;0x0003;+;)
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+C0 data8(_main_sloc0_1_0;)
+C0 data8(_main_sloc0_1_0;0x0001;+;)
+C0 data8(_main_sloc0_1_0;0x0002;+;)
+C0 data8(_main_sloc0_1_0;0x0003;+;)
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+85 82 data8(_main_sloc1_1_0;)
+85 83 data8(_main_sloc1_1_0;0x0001;+;)
+85 F0 data8(_main_sloc1_1_0;0x0002;+;)
+F5 data8(_main_sloc1_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_main_sloc0_1_0;)
+C0 data8(_main_sloc0_1_0;0x0001;+;)
+C0 data8(_main_sloc0_1_0;0x0002;+;)
+C0 data8(_main_sloc0_1_0;0x0003;+;)
+90 8B E6
+75 F0 0F
+74 40
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+C0 data8(_main_sloc0_1_0;)
+C0 data8(_main_sloc0_1_0;0x0001;+;)
+C0 data8(_main_sloc0_1_0;0x0002;+;)
+C0 data8(_main_sloc0_1_0;0x0003;+;)
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+C0 data8(_main_sloc0_1_0;)
+C0 data8(_main_sloc0_1_0;0x0001;+;)
+C0 data8(_main_sloc0_1_0;0x0002;+;)
+C0 data8(_main_sloc0_1_0;0x0003;+;)
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 00
+C0 01
+85 data8(_main_sloc1_1_0;) 82
+85 data8(_main_sloc1_1_0;0x0001;+;) 83
+85 data8(_main_sloc1_1_0;0x0002;+;) F0
+E5 data8(_main_sloc1_1_0;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_main_sloc1_1_0;)
+85 83 data8(_main_sloc1_1_0;0x0001;+;)
+85 F0 data8(_main_sloc1_1_0;0x0002;+;)
+F5 data8(_main_sloc1_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_main_sloc0_1_0;)
+C0 data8(_main_sloc0_1_0;0x0001;+;)
+C0 data8(_main_sloc0_1_0;0x0002;+;)
+C0 data8(_main_sloc0_1_0;0x0003;+;)
+90 DA EB
+75 F0 8F
+74 43
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+C0 data8(_main_sloc0_1_0;)
+C0 data8(_main_sloc0_1_0;0x0001;+;)
+C0 data8(_main_sloc0_1_0;0x0002;+;)
+C0 data8(_main_sloc0_1_0;0x0003;+;)
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 00
+C0 01
+85 data8(_main_sloc1_1_0;) 82
+85 data8(_main_sloc1_1_0;0x0001;+;) 83
+85 data8(_main_sloc1_1_0;0x0002;+;) F0
+E5 data8(_main_sloc1_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+AE 82
+AF 83
+A8 F0
+F9
+E5 81
+24 FC
+F5 81
+74 D8
+C0 E0
+74 13
+C0 E0
+74 9D
+C0 E0
+74 C9
+C0 E0
+8E 82
+8F 83
+88 F0
+E9
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+74 B4
+C0 E0
+74 43
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+85 data8(_PWM_TIME;) 82
+85 data8(_PWM_TIME;0x0001;+;) 83
+C0 02
+C0 03
+C0 04
+C0 05
+12 addr16(___uint2fs;)  
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fs2uint;)  
+85 82 data8(_PWM_TIME;)
+85 83 data8(_PWM_TIME;0x0001;+;)
+90 01 F4
+12 addr16(_waitms;)  
+75 data8(_PWM_TURN;) 32
+E4
+F5 data8(_PWM_TURN;0x0001;+;)
+E4
+F5 data8(_PWM_OFF;)
+F5 data8(_PWM_OFF;0x0001;+;)
+90 01 F4
+12 addr16(_waitms;)  
+75 data8(_count_angle;) 01
+E4
+F5 data8(_count_angle;0x0001;+;)
+85 data8(_main_temp_1_58;) data8(_PWM_TURN;)
+85 data8(_main_temp_1_58;0x0001;+;) data8(_PWM_TURN;0x0001;+;)
+C3
+74 E8
+95 data8(_PWM_TIME;)
+74 03
+95 data8(_PWM_TIME;0x0001;+;)
+50 rel2(L007020?;)
+90 03 E8
+12 addr16(_waitms;)  
+E5 data8(_PWM_TIME;)
+24 18
+F5 data8(_PWM_TIME;)
+E5 data8(_PWM_TIME;0x0001;+;)
+34 FC
+F5 data8(_PWM_TIME;0x0001;+;)
+80 rel2(L007018?;)
+85 data8(_PWM_TIME;) 82
+85 data8(_PWM_TIME;0x0001;+;) 83
+12 addr16(_waitms;)  
+75 data8(_PWM_OFF;) 01
+E4
+F5 data8(_PWM_OFF;0x0001;+;)
+E4
+F5 data8(_count_angle;)
+F5 data8(_count_angle;0x0001;+;)
+F5 data8(_main_temp_1_58;)
+F5 data8(_main_temp_1_58;0x0001;+;)
+85 data8(_centiseconds;) data8(_getAngle_PARM_2;)
+85 data8(_centiseconds;0x0001;+;) data8(_getAngle_PARM_2;0x0001;+;)
+85 data8(_centiseconds;0x0002;+;) data8(_getAngle_PARM_2;0x0002;+;)
+85 data8(_centiseconds;0x0003;+;) data8(_getAngle_PARM_2;0x0003;+;)
+85 data8(_PWM_TURN;) data8(_getAngle_PARM_3;)
+85 data8(_PWM_TURN;0x0001;+;) data8(_getAngle_PARM_3;0x0001;+;)
+85 data8(_current_angle;) 82
+85 data8(_current_angle;0x0001;+;) 83
+12 addr16(_getAngle;)  
+85 82 data8(_current_angle;)
+85 83 data8(_current_angle;0x0001;+;)
+C0 data8(_current_angle;)
+C0 data8(_current_angle;0x0001;+;)
+74 data8(__str_16;)
+C0 E0
+74 data8(__str_16;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+E5 81
+24 FB
+F5 81
+E4
+F5 data8(_centiseconds;)
+F5 data8(_centiseconds;0x0001;+;)
+F5 data8(_centiseconds;0x0002;+;)
+F5 data8(_centiseconds;0x0003;+;)
+F5 data8(_PWM_MODE;)
+F5 data8(_PWM_MODE;0x0001;+;)
+02 addr16(L007048?;)  
+E4
+F5 data8(_main_direction_1_58;)
+F5 data8(_main_direction_1_58;0x0001;+;)
+90 4F 3F
+12 addr16(_srand;)  
+74 data8(__str_21;)
+C0 E0
+74 data8(__str_21;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+90 01 F4
+12 addr16(_waitms;)  
+74 data8(__str_22;)
+C0 E0
+74 data8(__str_22;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_23;)
+C0 E0
+74 data8(__str_23;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_24;)
+C0 E0
+74 data8(__str_24;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(__str_25;)
+C0 E0
+74 data8(__str_25;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+74 data8(_main_temp_1_58;)
+C0 E0
+74 data8(_main_temp_1_58;0x0008;>>;)
+C0 E0
+74 40
+C0 E0
+74 data8(__str_15;)
+C0 E0
+74 data8(__str_15;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_scanf;)  
+E5 81
+24 FA
+F5 81
+74 FF
+B5 data8(_main_temp_1_58;) rel3(L007076?;)
+74 FF
+B5 data8(_main_temp_1_58;0x0001;+;) rel3(L007076?;)
+02 addr16(L007048?;)  
+74 FE
+B5 data8(_main_temp_1_58;) rel3(L007027?;)
+74 FF
+B5 data8(_main_temp_1_58;0x0001;+;) rel3(L007027?;)
+75 data8(_main_direction_1_58;) 01
+E4
+F5 data8(_main_direction_1_58;0x0001;+;)
+80 rel2(L007036?;)
+E5 data8(_main_temp_1_58;0x0001;+;)
+20 E7 rel3(L007023?;)
+C3
+74 E8
+95 data8(_main_temp_1_58;)
+74 83
+85 data8(_main_temp_1_58;0x0001;+;) F0
+63 F0 80
+95 F0
+40 rel2(L007023?;)
+75 data8(__divsint_PARM_2;) 02
+E4
+F5 data8(__divsint_PARM_2;0x0001;+;)
+85 data8(_main_temp_1_58;) 82
+85 data8(_main_temp_1_58;0x0001;+;) 83
+12 addr16(__divsint;)  
+AA 82
+AB 83
+74 26
+C3
+9A
+F5 data8(_PWM_TIME;)
+74 02
+9B
+F5 data8(_PWM_TIME;0x0001;+;)
+80 rel2(L007036?;)
+75 data8(_PWM_TIME;) F4
+75 data8(_PWM_TIME;0x0001;+;) 01
+74 01
+B5 data8(_main_direction_1_58;) rel3(L007081?;)
+E4
+B5 data8(_main_direction_1_58;0x0001;+;) rel3(L007081?;)
+80 rel2(L007082?;)
+80 rel2(L007033?;)
+E4
+F5 data8(_PWM_OFF;)
+F5 data8(_PWM_OFF;0x0001;+;)
+74 data8(__str_26;)
+C0 E0
+74 data8(__str_26;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+12 addr16(_rand;)  
+75 data8(__modsint_PARM_2;) 02
+E4
+F5 data8(__modsint_PARM_2;0x0001;+;)
+12 addr16(__modsint;)  
+85 82 data8(__mulint_PARM_2;)
+85 83 data8(__mulint_PARM_2;0x0001;+;)
+90 00 64
+12 addr16(__mulint;)  
+85 82 data8(_PWM_TURN;)
+85 83 data8(_PWM_TURN;0x0001;+;)
+12 addr16(_rand;)  
+75 data8(__modsint_PARM_2;) 64
+E4
+F5 data8(__modsint_PARM_2;0x0001;+;)
+12 addr16(__modsint;)  
+85 82 data8(_PWM_TIME;)
+85 83 data8(_PWM_TIME;0x0001;+;)
+85 data8(_PWM_TIME;) 82
+85 data8(_PWM_TIME;0x0001;+;) 83
+12 addr16(_waitms;)  
+80 rel2(L007036?;)
+74 data8(__str_26;)
+C0 E0
+74 data8(__str_26;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+75 data8(_PWM_TURN;) 64
+E4
+F5 data8(_PWM_TURN;0x0001;+;)
+E4
+F5 data8(_PWM_OFF;)
+F5 data8(_PWM_OFF;0x0001;+;)
+85 data8(_PWM_TIME;) 82
+85 data8(_PWM_TIME;0x0001;+;) 83
+12 addr16(_waitms;)  
+E4
+F5 data8(_PWM_TURN;)
+F5 data8(_PWM_TURN;0x0001;+;)
+85 data8(_PWM_TIME;) 82
+85 data8(_PWM_TIME;0x0001;+;) 83
+12 addr16(_waitms;)  
+02 addr16(L007036?;)  
+E4
+F5 data8(_main_direction_1_58;)
+F5 data8(_main_direction_1_58;0x0001;+;)
+F5 data8(_main_temp_1_58;)
+F5 data8(_main_temp_1_58;0x0001;+;)
+02 addr16(L007048?;)  
+E4
+F5 data8(_count_angle;)
+F5 data8(_count_angle;0x0001;+;)
+75 data8(_PWM_OFF;) 01
+E4
+F5 data8(_PWM_OFF;0x0001;+;)
+74 data8(__str_27;)
+C0 E0
+74 data8(__str_27;0x0008;>>;)
+C0 E0
+74 80
+C0 E0
+12 addr16(_printf;)  
+15 81
+15 81
+15 81
+90 03 E8
+12 addr16(_waitms;)  
+85 data8(_centiseconds;) data8(_getAngle_PARM_2;)
+85 data8(_centiseconds;0x0001;+;) data8(_getAngle_PARM_2;0x0001;+;)
+85 data8(_centiseconds;0x0002;+;) data8(_getAngle_PARM_2;0x0002;+;)
+85 data8(_centiseconds;0x0003;+;) data8(_getAngle_PARM_2;0x0003;+;)
+85 data8(_PWM_TURN;) data8(_getAngle_PARM_3;)
+85 data8(_PWM_TURN;0x0001;+;) data8(_getAngle_PARM_3;0x0001;+;)
+85 data8(_current_angle;) 82
+85 data8(_current_angle;0x0001;+;) 83
+12 addr16(_getAngle;)  
+85 82 data8(_current_angle;)
+85 83 data8(_current_angle;0x0001;+;)
+C3
+E5 data8(_current_angle;)
+94 B4
+E5 data8(_current_angle;0x0001;+;)
+94 00
+40 rel2(L007041?;)
+74 68
+C3
+95 data8(_current_angle;)
+F5 82
+74 01
+95 data8(_current_angle;0x0001;+;)
+F5 83
+12 addr16(___uint2fs;)  
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+90 00 00
+75 F0 60
+74 40
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fs2uint;)  
+85 82 data8(_PWM_TIME;)
+85 83 data8(_PWM_TIME;0x0001;+;)
+75 data8(_PWM_TURN;) 64
+E4
+F5 data8(_PWM_TURN;0x0001;+;)
+80 rel2(L007042?;)
+85 data8(_current_angle;) 82
+85 data8(_current_angle;0x0001;+;) 83
+12 addr16(___uint2fs;)  
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+90 00 00
+75 F0 60
+74 40
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fs2uint;)  
+85 82 data8(_PWM_TIME;)
+85 83 data8(_PWM_TIME;0x0001;+;)
+E4
+F5 data8(_PWM_TURN;)
+F5 data8(_PWM_TURN;0x0001;+;)
+E4
+F5 data8(_PWM_TURN;)
+F5 data8(_PWM_TURN;0x0001;+;)
+F5 data8(_PWM_OFF;)
+F5 data8(_PWM_OFF;0x0001;+;)
+C3
+74 E8
+95 data8(_PWM_TIME;)
+74 03
+95 data8(_PWM_TIME;0x0001;+;)
+50 rel2(L007044?;)
+90 03 E8
+12 addr16(_waitms;)  
+E5 data8(_PWM_TIME;)
+24 18
+F5 data8(_PWM_TIME;)
+E5 data8(_PWM_TIME;0x0001;+;)
+34 FC
+F5 data8(_PWM_TIME;0x0001;+;)
+85 data8(_PWM_TIME;) 82
+85 data8(_PWM_TIME;0x0001;+;) 83
+12 addr16(_waitms;)  
+75 data8(_PWM_OFF;) 01
+E4
+F5 data8(_PWM_OFF;0x0001;+;)
+75 data8(_PWM_TURN;) 32
+E4
+F5 data8(_PWM_TURN;0x0001;+;)
+E4
+F5 data8(_current_angle;)
+F5 data8(_current_angle;0x0001;+;)
+02 addr16(L007048?;)  
+02 addr16(L007048?;)  
+</CODE>
+
+<CODE R_CSEG>
+</CODE>
+
+<CODE R_XINIT>
+</CODE>
+
+<CODE R_CONST>
+0A
+4B 6E 6F 77 6E 20 56 61 6C 75 65 73 3A 20 25 69 20
+63 75 72 72 65 6E 74 2C 20 25 66 20 6D 73 20 63
+6F 75 6E 74 65 64 2C 20 25 69 20 74 75 72 6E 20
+70 6F 77 65 72 
+00
+0A
+54 69 6D 65 20 70 65 72 20 33 36 30 3A 20 25 66 
+00
+0A
+4D 75 6C 74 69 70 6C 65 20 6F 66 20 33 36 30 3A 20
+25 66 
+00
+0A
+61 6E 67 6C 65 5F 63 68 61 6E 67 65 3A 20 25 66 
+00
+1B
+5B 32 4A 
+00
+57 65 6C 63 6F 6D 65 20 74 6F 20 74 68 65 20 6D 6F
+74 6F 72 20 63 6F 6E 74 72 6F 6C 6C 65 72 21 20
+50 6C 65 61 73 65 20 70 69 63 6B 20 66 72 6F 6D
+20 74 68 65 20 73 65 76 65 72 61 
+6C 20 6D 6F 64 65 73 20 62 65 6C 6F 77 3A 
+00
+0A
+28 30 29 20 2D 20 53 74 6F 70 20 74 68 65 20 4D 6F
+74 6F 72 20 43 6F 6E 74 72 6F 6C 6C 65 72 
+00
+0A
+28 31 29 20 2D 20 54 75 72 6E 20 43 6F 75 6E 74 65
+72 2D 43 6C 6F 63 6B 77 69 73 65 20 61 74 20 6D
+61 78 69 6D 75 6D 20 73 70 65 65 64 
+00
+0A
+28 32 29 20 2D 20 54 75 72 6E 20 43 6C 6F 63 6B 77
+69 73 65 20 61 74 20 6D 61 78 69 6D 75 6D 20 73
+70 65 65 64 
+00
+0A
+28 33 29 20 2D 20 54 75 72 6E 20 61 74 20 76 61 72
+69 61 62 6C 65 20 73 70 65 65 64 20 61 6E 64 20
+74 69 6D 65 
+00
+0A
+28 34 29 20 2D 20 54 75 72 6E 20 61 74 20 76 61 72
+69 61 62 6C 65 20 73 70 65 65 64 20 61 6E 64 20
+61 6E 67 6C 65 
+00
+0A
+28 35 29 20 2D 20 44 4A 2F 53 63 72 65 65 6E 77 69
+70 65 72 20 6D 6F 64 65 
+00
+0A
+28 36 29 20 2D 20 50 79 74 68 6F 6E 20 41 6E 67 6C
+65 
+00
+0A
+28 39 29 20 2D 20 52 65 73 65 74 2C 20 74 68 65 20
+4D 6F 74 6F 72 20 43 6F 6E 74 72 6F 6C 6C 65 72
+
+00
+0A
+0A
+45 6E 74 65 72 20 6D 6F 64 65 3A 20 
+00
+20 25 69 
+00
+0A
+43 75 72 72 65 6E 74 20 61 6E 67 6C 65 3A 20 25 69
+
+00
+0A
+45 6E 74 65 72 20 31 20 66 6F 72 20 63 6C 6F 63 6B
+77 69 73 65 2C 20 30 20 66 6F 72 20 63 6F 75 6E
+74 65 72 63 6C 6F 63 6B 77 69 73 65 28 64 65 66
+61 75 6C 74 29 3A 20 
+00
+0A
+45 6E 74 65 72 20 74 75 72 6E 20 73 70 65 65 64 20
+28 30 20 74 6F 20 31 30 29 3A 20 
+00
+0A
+45 6E 74 65 72 20 74 69 6D 65 3A 20 
+00
+0A
+45 6E 74 65 72 20 61 6E 67 6C 65 3A 20 
+00
+0A
+0A
+0A
+0A
+57 61 72 6E 69 6E 67 21 20 54 68 65 72 65 20 69 73
+20 6E 6F 20 72 65 74 75 72 6E 20 66 72 6F 6D 20
+64 69 73 63 6F 20 6D 6F 64 65 2E 
+00
+0A
+7B 20 20 54 6F 20 62 61 63 6B 20 6F 75 74 2C 20 65
+6E 74 65 72 20 73 70 65 65 64 20 2D 31 
+00
+0A
+7C 20 20 46 75 6E 20 6D 6F 64 65 20 69 73 20 61 6C
+73 6F 20 61 76 61 69 6C 61 62 6C 65 20 62 79 20
+65 6E 74 65 72 69 6E 67 20 2D 32 21 
+00
+0A
+7C 20 20 
+0A
+7C 20 20 4F 6E 63 65 20 64 61 6E 63 69 6E 67 2C 20
+61 6C 77 61 79 73 20 64 61 6E 63 69 6E 67 21 20
+48 61 76 65 20 66 75 6E 21 
+00
+0A
+20 53 70 65 65 64 3F 20 28 30 20 74 6F 20 31 30 30
+30 29 
+0A
+00
+20 20 44 49 53 43 4F 20 2A 2A 
+00
+0A
+52 65 73 65 74 74 69 6E 67 20 2E 20 2E 20 2E 
+00
+</CODE>
+
+<CODE AT 002E>
+</CODE>
